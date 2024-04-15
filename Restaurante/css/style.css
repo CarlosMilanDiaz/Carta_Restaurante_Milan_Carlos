@@ -1,0 +1,64 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+
+
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+
+.columnas-container {
+    display: flex;
+}
+
+
+.columnas {
+    flex: 1;
+}
+
+
+.columna {
+    margin-right: 20px;
+}
+
+
+.columna:last-child {
+    margin-right: 0;
+}
+
+
+.plato {
+    background-color: #fff;
+    border-radius: 5px;
+    padding: 15px;
+    margin-bottom: 20px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+
+.plato h3 {
+    margin-top: 0;
+    color: black;
+}
+
+
+.plato p {
+    margin: 5px 0;
+}
+
+
+.plato ul {
+    margin: 5px 0;
+    padding-left: 20px;
+}
+
+
+.plato ul li {
+    list-style-type: none;
+}

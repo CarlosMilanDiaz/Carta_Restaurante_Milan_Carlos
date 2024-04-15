@@ -1,0 +1,261 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<menu>
+    <plato tipo="Tapas">
+        <title>Patatas Bravas</title>
+        <precio>4.20€</precio>
+        <descripcion>Patatas fritas con salsa Bravas</descripcion>
+        <cal>300calo</cal>
+        <ingredientes>
+            <categoria>Para picar</categoria>
+        </ingredientes>
+    </plato>
+    
+    <plato tipo="Tapas">
+        <title>Cochinillo</title>
+        <precio>4.50€</precio>
+        <descripcion>Plato de cochinillo con un poco pan</descripcion>
+        <cal>250calo</cal>
+        <ingredientes>
+            <categoria>Para picar</categoria>
+            <categoria>Carne</categoria>
+        </ingredientes>
+    </plato>
+    
+    <plato tipo="Tapas">
+        <title>Boquerones Fritos</title>
+        <precio>5.00€</precio>
+        <descripcion>Boquerenos fritos</descripcion>
+        <cal>400calo</cal>
+        <ingredientes>
+            <categoria>Para picar</categoria>
+            <categoria>Gluten</categoria>
+            <categoria>Pescado</categoria>
+        </ingredientes>
+    </plato>
+    
+    <plato tipo="Tapas">
+        <title>Croquetas de jamon</title>
+        <precio>4.40€</precio>
+        <descripcion>Croquetas con jamon caseras</descripcion>
+        <cal>400calo</cal>
+        <ingredientes>
+            <categoria>Para picar</categoria>
+            <categoria>Gluten</categoria>
+        </ingredientes>
+    </plato>
+    
+    <plato tipo="Parrilla">
+        <title>Costilla de cerdo</title>
+        <precio>14.00€</precio>
+        <descripcion>Costillar de cerdo con salsa de la casa</descripcion>
+        <cal>2268calo</cal>
+        <ingredientes>
+            <categoria>Carne</categoria>
+            <categoria>Parrilla</categoria>
+        </ingredientes>
+    </plato>
+    
+    <plato tipo="Parrilla">
+        <title>Chuleta de cordero</title>
+        <precio>12.50€</precio>
+        <descripcion>Chuleta de cordero con guarnicion</descripcion>
+        <cal>314calo</cal>
+        <ingredientes>
+            <categoria>Carne</categoria>
+            <categoria>Parrilla</categoria>
+        </ingredientes>
+    </plato>
+    
+    <plato tipo="Parrilla">
+        <title>Pechugas de pollo a la barbacoa</title>
+        <precio>16.00€</precio>
+        <descripcion>Pechugas de pollo a la barbacoa al estilo de la abuela </descripcion>
+        <cal>660calo</cal>
+        <ingredientes>
+            <categoria>Carne</categoria>
+            <categoria>Parrilla</categoria>
+        </ingredientes>
+    </plato>
+
+    <plato tipo="Parrilla">
+        <title>Entraña a la barbacoa</title>
+        <precio>16.00€</precio>
+        <descripcion>Entraña a la barbacoa con salsa chimichurri</descripcion>
+        <cal>660calo</cal>
+        <ingredientes>
+            <categoria>Carne</categoria>
+            <categoria>Parrilla</categoria>
+        </ingredientes>
+    </plato>
+    
+    <plato tipo="Parrilla">
+        <title>Salmón ahumado en la barbacoa</title>
+        <precio>14.30€</precio>
+        <descripcion>Salmon ahumado en nuestra propia barbacoa</descripcion>
+        <cal>220calo</cal>
+        <ingredientes>
+            <categoria>Pescado</categoria>
+            <categoria>Parrilla</categoria>
+        </ingredientes>
+    </plato>
+    
+    <plato tipo="Parrilla">
+        <title>Vacío con chimichurri</title>
+        <precio>17.00€</precio>
+        <descripcion>Vacio de ternera con chimichurri</descripcion>
+        <cal>126calo</cal>
+        <ingredientes>
+            <categoria>Pescado</categoria>
+            <categoria>Parrilla</categoria>
+        </ingredientes>
+    </plato>
+    
+    <!-- Platos de la categoría "Pescado" -->
+    <plato tipo="Pescado">
+        <title>Trucha a la plancha</title>
+        <precio>10.00€</precio>
+        <descripcion>Trucha a la plancha</descripcion>
+        <cal>185calo</cal>
+        <ingredientes>
+            <categoria>Pescado</categoria>
+        </ingredientes>
+    </plato>
+    
+    <plato tipo="Pescado">
+        <title>Salmon al horno con patatas</title>
+        <precio>14.00€</precio>
+        <descripcion>Salmon al horno con patatas caseras</descripcion>
+        <cal>126calo</cal>
+        <ingredientes>
+            <categoria>Pescado</categoria>
+        </ingredientes>
+    </plato>
+    
+     <plato tipo="Pescado">
+        <title>Canelones de bacalao</title>
+        <precio>16.00€</precio>
+        <descripcion>Canelones hechos con bacalao con espinacas y uvas pasas</descripcion>
+        <cal>781calo</cal>
+        <ingredientes>
+            <categoria>Pescado</categoria>
+            <categoria>Vegetariano</categoria>
+        </ingredientes>
+    </plato>
+    
+    <plato tipo="Pescado">
+        <title>Salmon en salsa de limon</title>
+        <precio>17.00€</precio>
+        <descripcion>Salmón con una salsa de base de limón</descripcion>
+        <cal>589calo</cal>
+        <ingredientes>
+            <categoria>Pescado</categoria>
+        </ingredientes>
+    </plato>
+    
+    <plato tipo="Pescado">
+        <title>Rollo de bonito a la asturiana</title>
+        <precio>17.00€</precio>
+        <descripcion>Rollo de bonito a la asturiana o bonito en rollo</descripcion>
+        <cal>450calo</cal>
+        <ingredientes>
+            <categoria>Pescado</categoria>
+            <categoria>Gluten</categoria>
+        </ingredientes>
+    </plato>
+    
+    <!-- Platos de la categoría "Postres" -->
+    <plato tipo="Postres">
+        <title>Tarta de queso</title>
+        <precio>8.00€</precio>
+        <descripcion>Tarta de queso casera con mermelada de arandanos</descripcion>
+        <cal>550calo</cal>
+        <ingredientes>
+            <categoria>Azucar</categoria>
+            <categoria>Lacteo</categoria>
+        </ingredientes>
+    </plato>
+    
+    <plato tipo="Postres">
+        <title>Torrijas</title>
+        <precio>7.00€</precio>
+        <descripcion>Torrijas tradicionales caseras</descripcion>
+        <cal>591calo</cal>
+        <ingredientes>
+            <categoria>Lacteo</categoria>
+            <categoria>Gluten</categoria>
+        </ingredientes>
+    </plato>
+
+    <plato tipo="Postres">
+        <title>Arroz con leche</title>
+        <precio>6.00€</precio>
+        <descripcion>Arroz con leche con un toque de canela</descripcion>
+        <cal>284calo</cal>
+        <ingredientes>
+            <categoria>Lacteo</categoria>
+            <categoria>Gluten</categoria>
+        </ingredientes>
+    </plato>
+    
+    <plato tipo="Postres">
+        <title>Bizcocho de limon casero</title>
+        <precio>5.50€</precio>
+        <descripcion>Bizcocho de limon casero con la receta de la abuela</descripcion>
+        <cal>305calo</cal>
+        <ingredientes>
+            <categoria>Gluten</categoria>
+        </ingredientes>
+    </plato>
+    
+    <plato tipo="Postres">
+        <title>Bizcocho de yogur casero y esponjoso</title>
+        <precio>5.00€</precio>
+        <descripcion>Bizcocho de yogur</descripcion>
+        <cal>377calo</cal>
+        <ingredientes>
+            <categoria>Lacteo</categoria>
+            <categoria>Gluten</categoria>
+        </ingredientes>
+    </plato>
+    
+    <!-- Platos de la categoría "Bebida" -->
+    <plato tipo="Bebida">
+        <title>Agua</title>
+        <precio>2.50€</precio>
+        <descripcion>Agua mineral</descripcion>
+        <cal>0calo</cal>
+        <ingredientes>
+            <categoria>Natural</categoria>
+        </ingredientes>
+    </plato>
+    
+    <plato tipo="Bebida">
+        <title>Nestea</title>
+        <precio>3.00€</precio>
+        <descripcion>Te al limon</descripcion>
+        <cal>62calo</cal>
+        <ingredientes>
+            <categoria>Azucar</categoria>
+        </ingredientes>
+    </plato>
+    
+    <plato tipo="Bebida">
+        <title>Coca-Cola</title>
+        <precio>2.50€</precio>
+        <descripcion>Coca-Cola</descripcion>
+        <cal>139calo</cal>
+        <ingredientes>
+            <categoria>Azucar</categoria>
+        </ingredientes>
+    </plato>
+    
+    <plato tipo="Bebida">
+        <title>Cerveza</title>
+        <precio>2.70€</precio>
+        <descripcion>Estrella Galicia</descripcion>
+        <cal>155calo</cal>
+        <ingredientes>
+            <categoria>Alcohol</categoria>
+        </ingredientes>
+    </plato>
+</menu>
