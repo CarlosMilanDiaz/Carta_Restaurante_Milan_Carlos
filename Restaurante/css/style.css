@@ -22,7 +22,11 @@ body {
     flex: 1;
 }
 
-
+.Portada{
+    background-image: url(../img/Portada.jpeg);
+    background-repeat: no-repeat;
+    background-size:cover ;
+}
 .columna {
     margin-right: 20px;
 }

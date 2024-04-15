@@ -8,6 +8,9 @@
     <link rel="stylesheet" href="../css/style.css">
 </head>
 <body>
+    <div class="Portada">
+    <h1>El Galeote</h1>
+    </div>
     <?php
     $menu = simplexml_load_file('../xml/carta.xml');
     $tipo_plato = array();
