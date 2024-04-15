@@ -24,8 +24,11 @@ body {
 
 .Portada{
     background-image: url(../img/Portada.jpeg);
-    background-repeat: no-repeat;
-    background-size:cover ;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    text-align: center;
+    color: yellow;
 }
 .columna {
     margin-right: 20px;
@@ -38,7 +41,7 @@ body {
 
 
 .plato {
-    background-color: #fff;
+    background-color:lightblue;
     border-radius: 5px;
     padding: 15px;
     margin-bottom: 20px;

@@ -8,10 +8,8 @@
     <link rel="stylesheet" href="../css/style.css">
 </head>
 <body>
-    <div class="Portada">
-    <h1>El Galeote</h1>
-    </div>
     <?php
+    include "../html/index.html";
     $menu = simplexml_load_file('../xml/carta.xml');
     $tipo_plato = array();
     
@@ -62,15 +60,14 @@
             </div>
             <div class="columnas-container">
             <div class="columnas">
-                <?php
-                // Imprimir refrescos en columnas
-                foreach ($tipo_plato['Postres'] as $plato) {
-                    echo '<div class="columna">';
-                    echo '<h2>Postres</h2>';
-                    imprimirPlato($plato);
-                    echo '</div>';
+        <?php
+            foreach ($tipo_plato['Postres'] as $plato) {
+                echo '<div class="columna">';
+                echo '<h2>Postres</h2>';
+                imprimirPlato($plato);
+                echo '</div>';
                 }
-                ?>
+        ?>
             </div>
             <div class="columnas">
                 <?php
